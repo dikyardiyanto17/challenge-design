@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+#square {
+    color: #5D5FEF;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.margin-left-custom {
+    margin-left: 20px;
+}
