@@ -1,11 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+.color-custom {
+  color: #98949e;
+}
 
 #square {
-    color: #5D5FEF;
-    font-size: 28px;
-    font-family: 'Quicksand', sans-serif;
+  color: #5d5fef;
+  font-size: 28px;
+  font-family: "Quicksand", sans-serif;
+  margin-top: 20px;
+}
+
+.border-custom {
+  border: 1px solid #d1d0d366;
+}
+
+.padding-custom {
+  padding: 10px;
+}
+
+.profile-custom-in {
+  height: 36px;
+  width: 36px;
+}
+.profile-custom-out {
+  height: 36px;
+  width: 36px;
+  border-radius: 20px;
 }
 
 .margin-left-custom {
-    margin-left: 20px;
+  margin-left: 20px;
+}
+
+.margin-left-custom-2 {
+  margin-left: 10px;
+}
+
+.menu-custom {
+  font-size: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.margin-bottom-custom {
+  margin-bottom: 15px;
+}
+
+.list-custom {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.margin-left-custom:focus .list-custom {
+  color: #5D5FEF !important;
+}
+
+.margin-left-custom:focus svg {
+  fill: #5D5FEF !important;
+}
+
+.profile-name {
+  font-size: 14px;
+  color: #110d17;
+}
+
+.profile-description {
+  font-size: 10px;
+  color: #98949e;
+}
+
+.button-custom {
+  border: none;
+  background-color: #fef5f6;
+  color: #8f0a13;
 }
