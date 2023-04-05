@@ -55,11 +55,11 @@
 }
 
 .margin-left-custom:focus .list-custom {
-  color: #5D5FEF !important;
+  color: #5d5fef !important;
 }
 
 .margin-left-custom:focus svg {
-  fill: #5D5FEF !important;
+  fill: #5d5fef !important;
 }
 
 .profile-name {
@@ -74,6 +74,51 @@
 
 .button-custom {
   border: none;
-  background-color: #fef5f6;
-  color: #8f0a13;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+@media screen and (max-width: 1200px){
+  #square {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+
+  .list-custom {
+    display: none;
+  }
+  #square {
+    display: none;
+  }
+  .profile-name {
+    display: none;
+  }
+  .dont-show-it {
+    display: none !important;
+  }
+
+  .margin-left-custom {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+  .custom-profile-dont {
+    width: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .sticky-custom {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100vw-(10/12));
+    height: 100vh;
+    background-color: white;
+    z-index: 999;
+    overflow: auto;
+  }
+  
 }

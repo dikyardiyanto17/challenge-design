@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+.home-template {
+  padding: 15px;
+  font-family: "Quicksand", sans-serif;
+  color: #98949e;
+}
+
+.home-header {
+  font-size: 24px !important;
+  color: #000000;
+}
+
+.home-description {
+  font-size: 14px;
+}
+
+.home-border-bottom {
+  border-bottom: 1px solid #d1d0d366;
+}
+
+.home-list {
+  cursor: pointer;
+  width: 100%;
+}
+
+.home-border:focus {
+  border-bottom: 2px solid blue;
+}
+
+/* .image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 3% 100%);
+} */
+
+.home-main-items {
+  padding: 15px;
+}
+.home-main-items-2 {
+  width: 100%;
+  padding: 20px;
+}
+
+.home-banner-background {
+  background-image: url("../assets//dummyimage.png");
+  background-size: contain;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.home-banner {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  z-index: 100;
+}
+
+.home-banner-description {
+  z-index: 100;
+  font-size: 14px;
+  color: #ebfffe;
+}
+
+.home-custom-button {
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  height: 50px;
+}
+
+.home-custom-input {
+  height: 41px !important;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+
+.home-custom-button-2 {
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #5d5fef;
+}
+
+.home-input-form {
+  padding: 3px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: #ffffff;
+}
+
+.home-svg-custom {
+  margin-left: 5px;
+}
+
+.home-custom-button-3 {
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  margin-left: 10px;
+}
+
+.home-select-custom {
+  margin: 20px 0px;
+  border: none;
+  background-color: #fafafa;
+  color: #98949e;
+}
+
+select {
+  width: 150px;
+  float: left;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  background: url("https://pluspng.com/img-png/up-and-down-png-hd-arrow-double-down-up-icon-512.png");
+  background-repeat: no-repeat;
+  background-size: 16px 17px;
+  background-position: right 0px;
+  background-position: top 10px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+th,
+td {
+  width: 170px;
+  border: none;
+  padding: 5px;
+}
+
+table td:nth-child(1) {
+  color: #110d17;
+}
+
+table td:nth-child(3) {
+  color: #110d17;
+}
+table td:nth-child(4) {
+  color: #110d17;
+}
+
+.home-margin-table {
+  margin: auto 10px;
+}
+
+.warga {
+  color: #eea849;
+}
+
+.juragan {
+  color: #56ccf2;
+}
+
+.sultan {
+  color: #38ef7d;
+}
+
+.konglomerat {
+  color: #e100ff;
+}
+
+.home-footer {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 992px) {
+  .home-description-r {
+    text-align: center;
+  }
+
+  .home-custom-button {
+    font-size: 10px;
+    height: 40px;
+  }
+  .dont-show-it {
+    display: none;
+  }
+  .home-custom-input {
+    height: 40px !important;
+  }
+  .home-custom-button-3 {
+    font-size: 10px;
+    height: 40px;
+  }
+
+  table {
+    width: auto;
+    font-size: 10px;
+  }
+
+  th,
+  td {
+    width: auto;
+    border: none;
+    padding: 5px;
+  }
+  select {
+    width: 100px !important;
+  }
+
+  .table-fluid-custom{
+    width: 100% !important;
+  }
+
+  /* .home-custom-button-2 {
+  font-size: 10px !important;
+} */
+
+  .home-custom-button-3 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  /* .home-custom-button {
+    font-size: 7px;
+  } */
+
+  .home-custom-button-2 {
+    font-size: 7px !important;
+  }
+
+
+  .home-custom-button {
+    font-size: 7px;
+    height: 35px;
+  }
+
+  .home-custom-input {
+    height: 35px !important;
+  }
+  .home-custom-button-3 {
+    font-size: 7px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 712px) {
+  /* .home-custom-button {
+    font-size: 7px;
+  } */
+
+  .home-custom-button-2 {
+    font-size: 5px !important;
+  }
+
+  .dont-show-it-2 {
+    display: none !important;
+  }
+
+
+  .home-custom-button {
+    font-size: 7px;
+    height: 35px;
+  }
+
+  .home-custom-input {
+    height: 35px !important;
+    width: 150px;
+  }
+  .home-custom-button-3 {
+    font-size: 7px;
+    height: 35px;
+  }
+}
+
